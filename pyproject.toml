@@ -1,0 +1,24 @@
+[project]
+name = "cbh"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "bawn",email = "lc5491137@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests (>=2.33.1,<3.0.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "pdfplumber (>=0.11.9,<0.12.0)"
+]
+
+[tool.poetry]
+packages = [{include = "cbh", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cbh = "cbh.main:main"
