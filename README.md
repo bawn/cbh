@@ -4,6 +4,22 @@ CBH Dashboard is a small Python project that extracts key metrics from CBH annua
 
 The project currently parses selected annual report files from `src/files`, saves the extracted metrics to `data.db`, and renders each metric as a Plotly bar chart.
 
+## Dashboard Preview
+
+![Tonnes received chart](images/Tonnesreceived.png)
+
+![AIFR chart](AIFR.png)
+
+![Fertiliser tonnes outturned chart](images/Fertiliser_tonnes_outturned.png)
+
+![Revenue from continuing operations chart](images/Revenue_from_continuing_operations.png)
+
+![Pools revenue chart](images/Pools_revenue.png)
+
+![Other gains and losses chart](images/Other_gains_and_losses.png)
+
+![Total revenue including other income chart](images/Total_revenue_including_other_income.png)
+
 ## Features
 
 - Extracts text from annual report PDFs with `PyPDF2`
